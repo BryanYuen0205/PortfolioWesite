@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan's Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>   
+    <div class="overlay"></div>
+    <div id="loading-screen">
+      <div class="loader"></div>
+    </div>
+
+    <main class="hidden-until-loaded">
+
+      <header>
+        <h1>Hi! I'm Bryan</h1>
+        <p>🚀 Welcome to my website!</p>
+      </header>
+
+      <section class="intro">
+        <h2>📜 Introduction</h2>
+        <p>
+          I am a Malaysian computer science student at The Hong Kong University of Science and Technology, also pursuing a minor in business. Beyond academics, I serve as one of the leads of the web development team for the Malaysian Student Association, where I oversee the development of the association’s website. In my free time, I enjoy playing golf, bouldering, and playing the guitar. 
+        </p>
+      </section>
+
+      <section class="projects">
+        <h2>👩🏽‍🚀 Projects</h2>
+
+        <div class="project">
+          <h3>Machine Learning for Stock Market Forecasting</h3>
+          <ul>
+            <li>Achieved 57% accuracy in forecasting S&P 500 upward trends by developing a predictive model using Python (yfinance, pandas, Random Forest) with historical data and backtesting</li>
+            <li>Enhanced model reliability through feature engineering and backtesting.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>A Real-Time Multiplayer Bullet Hell Game</h3>
+          <ul>
+            <li>Fast-paced browser game where players dodge procedurally generated projectiles and collect gems and powerups, featuring synchronized multiplayer gameplay.</li>
+            <li>Built using JavaScript, AJAX, Socket.IO, and Canvas.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Named Entity Recognition with Deep Learning</h3>
+          <ul>
+            <li>Evaluated LSTM, BERT, and custom hybrid models for F1 optimization.</li>
+            <li>Benchmarked performance across precision, recall, and architecture variations.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2>💼 Work Experience</h2>
+
+        <div class="work">
+          <h3>Deloitte</h3>
+          <p><em>Technology Consultant Intern (Oracle)</em></p>
+          <ul>
+            <li>Built dashboards using Oracle Analytics Server.</li>
+            <li>Optimized SQL queries for performance.</li>
+            <li>Practiced Agile Scrum with stakeholders.</li>
+          </ul>
+        </div>
+
+        <div class="work">
+          <h3>KASL Infotech Limited</h3>
+          <p><em>Business Intelligence Intern</em></p>
+          <ul>
+            <li>Researched CI/CD pipelines for ML with Azure.</li>
+            <li>Led a team to build an Arduino-based smart irrigation system.</li>
+            <li>Improved hardware reliability through diagnostics.</li>
+          </ul>
+        </div>
+
+        <div class="work">
+          <h3>HKUST – Undergraduate Research Program</h3>
+          <p><em>Research Assistant</em></p>
+          <ul>
+            <li>Explored immersive education in the metaverse.</li>
+            <li>Built a Unity-based 3D educational game prototype.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-mini">
+        <div class="contact-icons">
+          <a href="https://github.com/BryanYuen0205" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bryan-yuen-303685223/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:bryanyuen05@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </section>
+
+
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
