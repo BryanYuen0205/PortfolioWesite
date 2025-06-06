@@ -81,11 +81,11 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = textureLoader.load('./src/assets/sky.jpg');
+const spaceTexture = textureLoader.load('./sky.jpg');
 scene.background = spaceTexture;
 
 
-loader.load('./src/assets/hotAirBalloon.glb', function (gltf) {
+loader.load('./hotAirBalloon.glb', function (gltf) {
     balloon = gltf.scene;
     balloon.position.set(-3,0,30);
     scene.add(balloon); // Add the loaded model to your scene
@@ -93,7 +93,7 @@ loader.load('./src/assets/hotAirBalloon.glb', function (gltf) {
     console.error(error); // Handle errors
 });
 
-loader.load('./src/assets/plane.glb', function (gltf) {
+loader.load('./plane.glb', function (gltf) {
     plane = gltf.scene;
     plane.position.set(10, 5, 5);
     plane.rotation.y = 10;
